@@ -27,8 +27,8 @@ export const NAV_LINKS: NavLinkItem[] = [
   { path: '/contact', label: 'Contact' },
 ];
 
-export const GITHUB_USERNAME = 'Cor3DevStudio';
-export const CONTACT_EMAIL = 'cor3devstudio@gmail.com';
+export const GITHUB_USERNAME = 'keeydi';
+export const CONTACT_EMAIL = 'keeeeeeeeydi@gmail.com';
 
 export const SOCIAL_LINKS: SocialLink[] = [
   { label: 'GitHub', href: `https://github.com/${GITHUB_USERNAME}`, ariaLabel: 'GitHub' },

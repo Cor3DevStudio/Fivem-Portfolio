@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 
 app.get('/api/contributions', async (req, res) => {
   try {
-    const username = String(req.query.username || 'Cor3DevStudio').trim() || 'Cor3DevStudio';
+    const username = String(req.query.username || 'keeydi').trim() || 'keeydi';
     const token = process.env.GITHUB_TOKEN;
 
     if (!token) {
