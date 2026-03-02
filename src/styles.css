@@ -973,6 +973,7 @@ body {
   min-width: 0;
   align-items: center;
   text-align: center;
+  overflow: hidden;
 }
 
 @media (min-width: 640px) {
@@ -1009,26 +1010,28 @@ body {
 
 .tech-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.375rem;
   flex: 1;
   width: 100%;
   max-width: 100%;
   min-width: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 @media (min-width: 640px) {
-  .tech-grid { grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
+  .tech-grid { grid-template-columns: repeat(4, 1fr); gap: 0.5rem; }
 }
 
 @media (min-width: 1024px) {
-  .tech-grid { grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+  .tech-grid { grid-template-columns: repeat(4, 1fr); gap: 0.5rem; }
 }
 
 .tech-item {
   position: relative;
   aspect-ratio: 1;
+  min-width: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1091,15 +1094,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2rem;
-  height: 2rem;
+  width: 2.75rem;
+  height: 2.75rem;
 }
 
 .skill-icon {
   position: relative;
   z-index: 1;
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 2.1rem;
+  height: 2.1rem;
   color: var(--muted-foreground);
   transition: color 0.2s;
 }
